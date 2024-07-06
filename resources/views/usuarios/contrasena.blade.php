@@ -7,7 +7,7 @@
         <div class="col-6">
             <div class="card">
                 <div class="card-body">
-                    <form action="{{ route('usuarios.cambiocontrasena') }}" method="POST">
+                    <form action="" method="POST">
                         @csrf
                         <!-- contraseña actual -->
                         <div class="mb-3">
